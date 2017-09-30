@@ -156,6 +156,9 @@ ifeq ($(WITH_TWRP),true)
 -include device/samsung/smdk4412-common/twrp/twrp.mk
 endif
 
+# Recovery
+LZMA_RAMDISK_TARGETS := recovery
+
 # SELinux
 BOARD_SEPOLICY_DIRS += device/samsung/smdk4412-common/selinux
 
