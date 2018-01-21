@@ -204,3 +204,6 @@ $(call inherit-product, hardware/samsung/exynos4x12.mk)
 
 # Include non-opensource parts
 $(call inherit-product, vendor/samsung/smdk4412-common/smdk4412-common-vendor.mk)
+
+# Include debugging props
+$(call inherit-product, device/samsung/smdk4412-common/system_prop_debug.mk)
