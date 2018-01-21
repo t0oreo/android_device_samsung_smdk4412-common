@@ -54,6 +54,8 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
     wificond \
     libbt-vendor
+    android.hardware.graphics.allocator@2.0-impl \
+    android.hardware.graphics.mapper@2.0-impl \
 PRODUCT_COPY_FILES += \
     device/samsung/smdk4412-common/manifest.xml:system/vendor/manifest.xml
 
