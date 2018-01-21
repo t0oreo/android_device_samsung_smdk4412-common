@@ -66,6 +66,9 @@ endif
 
 WITH_DEXPREOPT_BOOT_IMG_AND_SYSTEM_SERVER_ONLY := true
 
+# Generate debug info
+PRODUCT_DEX_PREOPT_BOOT_FLAGS += --generate-mini-debug-info
+
 # Filesystem
 BOARD_NAND_PAGE_SIZE := 4096
 BOARD_NAND_SPARE_SIZE := 128
