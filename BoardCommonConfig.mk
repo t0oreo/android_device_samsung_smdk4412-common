@@ -171,6 +171,7 @@ BLUE_LED_PATH := /sys/class/leds/led_b/brightness
 BACKLIGHT_PATH := /sys/class/backlight/panel/brightness
 
 # Override healthd HAL
+WITH_LINEAGE_CHARGER := false
 BOARD_HAL_STATIC_LIBRARIES := libhealthd.exynos4
 
 # LPM Battery Percentage
