@@ -91,6 +91,7 @@ BOARD_EGL_WORKAROUND_BUG_10194508 := true
 # Only needed by Samsung skia changes (not ported beyond 4.4)
 #BOARD_GLOBAL_CFLAGS += -DSEC_HWJPEG_G2D
 BOARD_GLOBAL_CFLAGS += -DFORCE_SCREENSHOT_CPU_PATH
+TARGET_USES_GRALLOC1 := true
 
 # FIMG Acceleration
 BOARD_USES_FIMGAPI := true
